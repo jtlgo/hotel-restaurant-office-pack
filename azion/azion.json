@@ -1,0 +1,68 @@
+{
+  "name": "jtlgo-office-pack",
+  "bucket": "jtlgo-office-pack-20261112072636",
+  "preset": "astro",
+  "env": "production",
+  "prefix": "20261112072630",
+  "rotate-prefix": true,
+  "not-first-run": true,
+  "function": [],
+  "application": {
+    "id": 1794467571,
+    "name": "jtlgo-office-pack"
+  },
+  "domain": {
+    "id": 0,
+    "name": "__DEFAULT__",
+    "domain_name": "",
+    "url": ""
+  },
+  "rt-purge": {
+    "purge_on_publish": true
+  },
+  "origin": null,
+  "rules-engine": {
+    "created": false,
+    "rules": [
+      {
+        "id": 1545086,
+        "name": "Deliver Static Assets and Set Cache Policy",
+        "phase": "request"
+      },
+      {
+        "id": 1545087,
+        "name": "Redirect to index.html",
+        "phase": "request"
+      },
+      {
+        "id": 1545088,
+        "name": "Redirect to index.html for Subpaths",
+        "phase": "request"
+      }
+    ]
+  },
+  "cache-settings": [
+    {
+      "id": 394287,
+      "name": "jtlgo-office-pack"
+    }
+  ],
+  "workloads": {
+    "id": 1794469310,
+    "name": "jtlgo-office-pack",
+    "domains": [],
+    "url": "https://bgr5jywkv4w.map.azionedge.net",
+    "deployment_id": [
+      {
+        "id": 360831,
+        "name": "jtlgo-office-pack"
+      }
+    ]
+  },
+  "connectors": [
+    {
+      "id": 234611,
+      "name": "jtlgo-office-pack"
+    }
+  ]
+}
